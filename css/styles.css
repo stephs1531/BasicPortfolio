@@ -1,9 +1,140 @@
-header {
-    width: 100%;
-    background-color:yellow;
+/* ------------------------Whole Page------------------------------ */
+
+body {
+    margin: 0 auto;
+    /* width: 960px; */
+    background: url(../assets/dark-honeycomb.png);
 }
 
-header div {
+
+/*------------------------------ Header and Navigation ------------------------------*/
+
+header {
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    border-bottom: 3px solid #cccccc;
+}
+
+.navBar {
+    /* background-color: yellowgreen; */
     width: 960px;
     margin: 0 auto;
-    background-color: yellowgreen;
+    height: 70px;
+
+}
+
+
+/* header h1, nav {
+    display: inline-block;
+    margin: 10px 0;
+    height: 30px;
+    padding: 10px 0;
+} */
+
+header ul {
+    margin: 0 auto;
+    display: inline-block;
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 0 0 0;
+    
+}
+ header h1 {
+     float: left;
+     font-family: 'Roboto Slab', serif;
+     margin: 0 auto;
+     font-size: 40px;
+     padding: 5px 15px 0px 15px;
+     background-color: #4aaaa5;
+     margin: 0 0 0 30px;
+     height: 65px;
+     color: #fff
+ }
+
+ul {
+     float: right;
+     padding: 10px 0 0 0;
+ }
+
+ header a {
+     padding: 10px 20px 10px 20px;
+     font-family: 'Roboto Condensed', sans-serif;
+     text-decoration: none;
+     color: #777777;
+ }
+
+/* ------------------------------Main Content ------------------------------*/
+
+#about {
+    /* background-color: cadetblue; */
+    width: 100%;
+    padding-top: 20px;
+}
+
+ .content {
+    width: 960px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 500px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif, bold;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 30px 0 20px 30px;
+    color: #4aaaa5;
+}
+
+hr {
+    border-width: 1px;
+    border-style: solid;
+    /* width: 900px; */
+    margin: 0 30px 30px 30px;
+    color: #cccccc;
+}
+
+img {
+    margin: 0 auto;
+    float: left;
+    padding: 0 30px 0 30px;
+}
+
+.info {
+     width: 60%;
+     display: inline-block;
+     margin: 0 auto;
+     /* float: right; */
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #777777;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+
+/* ------------------------------footer ------------------------------*/
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 0 0 0;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    border-top: 3px solid #4aaaa5;
+    margin: 30px 0 0 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
