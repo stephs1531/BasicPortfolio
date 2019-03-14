@@ -120,6 +120,26 @@ p {
 }
 
 
+/*------------------------------- FORM ----------------------------------*/
+
+.form {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form input {
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    height: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+  }
+
+.input {
+	padding-bottom: 20px;
+}
 /* ------------------------------footer ------------------------------*/
 footer p {
     text-align: center;
