@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Stephanie Sapp's Portfolio</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stephanie Sapp's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+</head>
+
 <body>
     <header>
         <div class="navBar">
@@ -24,7 +26,23 @@
         <div class="content">
             <h2>Contact</h2>
             <hr>
-            <!-- Input fields go here -->
+
+            <div class="form">
+                <!-- Input fields go here -->
+                <form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Your message here"
+                        style="height:200px"></textarea>
+
+                    <button><input type="submit" value="Submit"></button>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -34,4 +52,5 @@
         </footer>
     </section>
 </body>
+
 </html>
